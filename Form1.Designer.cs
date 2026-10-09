@@ -31,6 +31,70 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             SuspendLayout();
             // 
+<<<<<<< HEAD
+=======
+            // textBox1
+            // 
+            textBox1.Location = new Point(327, 202);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(167, 29);
+            textBox1.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(339, 305);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(155, 29);
+            textBox2.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(362, 77);
+            label1.Name = "label1";
+            label1.Size = new Size(104, 23);
+            label1.TabIndex = 2;
+            label1.Text = "Авторизация";
+            label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(388, 159);
+            label2.Name = "label2";
+            label2.Size = new Size(53, 23);
+            label2.TabIndex = 3;
+            label2.Text = "Логин";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(388, 264);
+            label3.Name = "label3";
+            label3.Size = new Size(65, 23);
+            label3.TabIndex = 4;
+            label3.Text = "Пароль";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(337, 387);
+            button1.Name = "button1";
+            button1.Size = new Size(157, 35);
+            button1.TabIndex = 5;
+            button1.Text = "Авторизироваться";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(112, 81);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(58, 50);
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
+            // 
+>>>>>>> 63c97df (Исправлен переход на форму администратора)
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 23F);
