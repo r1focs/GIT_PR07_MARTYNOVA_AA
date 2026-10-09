@@ -17,6 +17,7 @@ namespace MARTYNOVA_PR07_GIT
             AdminForm adminForm = new AdminForm();
             adminForm.Show();
             this.Hide();
+
         }
     }
 }
