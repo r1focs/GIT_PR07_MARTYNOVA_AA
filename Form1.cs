@@ -6,5 +6,10 @@ namespace MARTYNOVA_PR07_GIT
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
