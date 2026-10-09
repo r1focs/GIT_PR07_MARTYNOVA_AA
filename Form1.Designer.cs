@@ -89,6 +89,7 @@
             button1.TabIndex = 5;
             button1.Text = "Авторизироваться";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // pictureBox1
             // 
